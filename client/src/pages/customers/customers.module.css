@@ -1,0 +1,348 @@
+.container_fluid {
+    padding: 0 20px;
+}
+.main_content {
+
+    margin-top: 30px;
+
+}
+thead.table_dark {
+    --bs-table-bg: #fff!important;
+    --bs-table-color: #222;
+
+}
+thead{
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+thead.table_dark tr th {
+    padding: 18px;
+    color: #222;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    vertical-align: middle;
+    background: #fff;
+    
+}
+tbody, td, tfoot, th, thead, tr {
+    border: 0;
+/*    border-bottom: 1px solid #dee2e6;*/
+}
+.table>:not(caption)>*>* {
+    padding: 20px;
+    color: #353535;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+.table_responsive {
+/*    border-radius: 12px;*/
+border-radius: 0;
+background: #fff;
+/*    background: #fff;*/
+}
+tbody tr td:nth-child(4) span  {
+    display: inline-block;
+}
+.high_light tbody tr td:nth-child(5) {
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+/*tbody tr td:nth-child(5) span{
+   border-radius: 100%;
+    font-size: 10px;
+    margin-right: 8px;
+}*/
+.high-light tbody tr td:nth-child(5) span {
+    padding: 5px 10px;
+    border-radius: 100px;
+/*    background: #00B050;*/
+    color: #fff;
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.userStatusActive{
+    padding: 5px 10px;
+    border-radius: 100px;
+    background: #00B050;
+    color: #fff;
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.userStatusInactive{
+    padding: 5px 10px;
+    border-radius: 100px;
+    background: #f00;
+    color: #fff;
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+button.btn.edit_btn {
+    border-radius: 5px;
+    border: 0.8px solid #000;
+    background: #FFF;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 16px;
+    transition: 0.5s all;
+    display: inline-flex;
+}
+button.btn.edit_btn span {
+    margin-right: 5px;
+}
+button.btn.edit_btn:hover {
+    background: #222;
+    color: #fff;
+    transition: 0.5s all;
+}
+thead.table_dark tr th {
+    padding: 18px;
+    color: #222;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    vertical-align: middle;
+    background: #fff;
+    text-align: left;
+}
+.table>tbody {
+    vertical-align: inherit;
+    background: #fff;
+}
+tbody tr td span img {
+    height: 16px;
+    object-fit: contain;
+    padding-right: 10px;
+}
+thead.table_dark tr {
+    height: 80px;
+}
+tr{
+    position: relative;
+    margin: 0;
+     height: 60px;
+    box-shadow: 2px 3px 4px #b5b5b5;
+}
+table.table.table_bordered {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+button.btn.edit_btn {
+    border-radius: 5px;
+    border: 0.8px solid #000;
+    background: #FFF;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 16px;
+    transition: 0.5s all;
+    display: inline-flex;
+    cursor: pointer;
+}
+.formCol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.formControl {
+    width: 100%;
+    padding: 9px;
+    border: unset;
+    box-shadow: 2px 3px 4px #b5b5b5;
+    font-size: 15px;
+    outline: unset;
+    border-color: unset;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+.modelForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 2rem;
+}
+
+.custom input[type="checkbox"] {
+    position: relative;
+    cursor: pointer;
+}
+.custom {
+    min-height: 60px;
+    display: flex;
+    align-items: flex-start;
+    transform: translateY(0.5rem);
+}
+
+.form{
+    flex: 0 0 60%;
+}
+
+label {
+    flex: 0 0 25%;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.custom > label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 35px;
+    color: #353535;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    flex: 100%;
+}
+
+
+select {
+    -webkit-appearance: none;
+    width: 60%;
+    background-image: url(../../assets/img/chevron-down.svg);
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+
+.custom input[type="checkbox"]:before {
+    transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+    transform: rotate(-45deg) scale(0, 0);
+    content: "";
+    position: absolute;
+    left: -3px;
+    top: 5px;
+    z-index: 1;
+    width: 18px;
+    height: 10.5px;
+    border: 3px solid #222;
+    border-top-style: none;
+    border-right-style: none;
+}
+.custom input[type="checkbox"]:checked:before {
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.custom input[type="checkbox"]:after {
+    border-radius: 2px;
+}
+.custom input[type="checkbox"]:after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: -12px;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border: 0px solid #ddd;
+    box-shadow: 2px 3px 4px #b5b5b5;
+    cursor: pointer;
+}
+
+.custom > label span {
+    margin-right: 8px;
+    display: inline-block;
+    width: 25px;
+}
+.disableInput .formControl {
+    text-align: right;
+    background-color: #f2f2f2;
+}
+
+.optionen {
+    display: inline-block; 
+    margin-left:auto; 
+    max-width: 200px;
+    height: 45px;
+    background-color:white;
+    border-radius: 4px;
+    color: black;
+    font-size:16px;
+    font-weight:600;
+    padding:10px;
+    border: none;
+    box-shadow:0px 0px 16px #00000009;
+    cursor: pointer;
+}
+
+.optionen2{
+    width: 100%;
+    border: solid 1px;
+    display: inline-block; 
+    margin-left:auto; 
+    margin-bottom: 2px;
+    margin-top: 5px;
+    height: 45px;
+    background-color:white;
+    border-radius: 4px;
+    color: black;
+    font-size:16px;
+    font-weight:600;
+    padding:10px;
+    box-shadow:0px 0px 16px #00000009;
+    cursor: pointer;
+}
+
+.optiondiv{
+    display: flex;  
+    width:100%;
+    margin-bottom:10px;
+}
+
+.optiondiv2{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.customBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    padding: 14px 32px;
+    gap: 5px;
+    border-radius: 8px;
+    border: 1px solid #F2F2F2;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.5s all;
+    cursor: pointer;
+  } 
+
+.customBtnDiv{
+    display: flex;
+    justify-content: end;
+}

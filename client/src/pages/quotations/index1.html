@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .printbody {
+    margin: 0; padding: 0; background-image: linear-gradient(45deg, #e0e0e0 8.33%, #ebebeb 8.33%, #ebebeb 50%, #e0e0e0 50%, #e0e0e0 58.33%, #ebebeb 58.33%, #ebebeb 100%); background-size: 8.49px 8.49px; display: block; width: 100%; height: calc(100vh - 256px); overflow: auto;
+    /* overflow-y: scroll; */
+}
+.a4container {
+    width: 210mm;height: 297mm;margin: 5mm auto;background-color: white;box-shadow: 1px 1px 3px 1px #333;page-break-after: always;position: relative;
+}
+
+.printheader {
+    position: absolute;top: 0;left: 25mm;right: 15mm;height: 25mm;background-color: #ccc;color: #000;text-align: left;
+    
+}
+
+.printheader .sitelogo {
+    display: flex;justify-content: space-between;align-items: center;color: #000;background-color: #fff;height: 19mm;padding: 0mm 0mm;
+}
+
+.printheader .siteheader {
+    display: flex;justify-content: space-between;align-items: center;color: #fff;background-color: #000;height: 6mm;padding: 0mm 2mm;
+}
+.printfooter {
+    position: absolute;bottom: 0;left: 25mm;right: 15mm;height: 20mm;background-color: #ccc;color: #000;text-align: right;
+}
+
+/* Stil für den Inhalt innerhalb des DIN A4-Bereichs */
+.printcontent {
+    position: relative;top: 25mm;left: 25mm;right: 15mm;
+}
+
+.printcontent .conntentheader {
+    position: relative;top: 2mm;height: 10mm;width: 170mm;font-size: 8mm;border-bottom: 1px solid #000;margin-bottom: 10px;
+}
+
+</style>
+<body>
+  <div style="margin: 0; padding: 0; background-image: linear-gradient(45deg, #e0e0e0 8.33%, #ebebeb 8.33%, #ebebeb 50%, #e0e0e0 50%, #e0e0e0 58.33%, #ebebeb 58.33%, #ebebeb 100%); background-size: 8.49px 8.49px; display: block; width: 100%; height: calc(100vh - 256px); overflow: auto;">
+    <div  style="width: 210mm;height: 297mm;margin: 5mm auto;background-color: white;box-shadow: 1px 1px 3px 1px #333;page-break-after: always;position: relative;">
+      <div style="position: absolute;top: 0;left: 25mm;right: 15mm;height: 25mm;background-color: #ccc;color: #000;text-align: left;">
+          <div class="templateName" style="display: flex;justify-content: space-between;align-items: center;color: #000;background-color: #fff;height: 19mm;padding: 0mm 0mm;">Logo</div>
+          <div style="display: flex;justify-content: space-between;align-items: center;color: #fff;background-color: #000;height: 6mm;padding: 0mm 2mm;">
+              <p style="color:red">Header Seite 1</p>
+              <p style="color:red">Header Seite 1</p>
+          </div>
+      </div>
+      <div  style="position: relative;top: 25mm;left: 25mm;right: 15mm;">
+      <div style="position: relative;top: 2mm;height: 10mm;width: 170mm;font-size: 8mm;border-bottom: 1px solid #000;margin-bottom: 10px;">Seite 1</div>
+          <p>Dies ist der Inhalt von Seite 1.</p>
+          <p class="customerStreetNumber"></p>
+          <p class="customerZipCode"></p>
+          <p class="customerCountry"></p>
+          <p class="customerNumber"></p>
+          <p class="offerNumber"></p>
+          <p class="customerAddress"></p>
+          <p class="customerName"></p>
+      </div>
+      <div style="position: absolute;bottom: 0;left: 25mm;right: 15mm;height: 20mm;background-color: #ccc;color: #000;text-align: right;">
+          <p>Seite 1</p>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>

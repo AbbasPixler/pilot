@@ -1,0 +1,221 @@
+.container_fluid {
+    padding: 0 20px;
+  }
+  .main_content {
+  
+    margin-top: 30px;
+  
+  }
+  thead.table_dark {
+    --bs-table-bg: #fff!important;
+    --bs-table-color: #222;
+  
+  }
+  thead.table_dark tr th {
+    padding: 18px;
+    color: #222;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    vertical-align: middle;
+    background: #fff;
+    
+  }
+  tbody, td, tfoot, th, thead, tr {
+    border: 0;
+  /*    border-bottom: 1px solid #dee2e6;*/
+  }
+  .table>:not(caption)>*>* {
+    padding: 20px;
+    color: #353535;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    vertical-align: baseline;
+    background: transparent;
+  }
+  .table_responsive {
+  /*    border-radius: 12px;*/
+  border-radius: 0;
+  background: #fff;
+  /*    background: #fff;*/
+  }
+  tbody tr td:nth-child(4) span  {
+    display: inline-block;
+  }
+  .high_light tbody tr td:nth-child(5) {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  /*tbody tr td:nth-child(5) span{
+   border-radius: 100%;
+    font-size: 10px;
+    margin-right: 8px;
+  }*/
+  .high-light tbody tr td:nth-child(5) span {
+    padding: 5px 10px;
+    border-radius: 100px;
+  /*    background: #00B050;*/
+    color: #fff;
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+  }
+  button.btn.edit_btn {
+    border-radius: 5px;
+    border: 0.8px solid #000;
+    background: #FFF;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 16px;
+    transition: 0.5s all;
+    display: inline-flex;
+  }
+  button.btn.edit_btn span {
+    margin-right: 5px;
+  }
+  button.btn.edit_btn:hover {
+    background: #222;
+    color: #fff;
+    transition: 0.5s all;
+  }
+  thead.table_dark tr th {
+    padding: 18px;
+    color: #222;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    vertical-align: middle;
+    background: #fff;
+    text-align: left;
+  }
+  .table>tbody {
+    vertical-align: inherit;
+    background: #fff;
+  }
+  tbody tr td span img {
+    height: 16px;
+    object-fit: contain;
+    padding-right: 10px;
+  }
+  thead.table_dark tr {
+    height: 80px;
+  }
+  tr{
+    position: relative;
+    margin: 0;
+     height: 60px;
+    box-shadow: 2px 3px 4px #b5b5b5;
+  }
+  table.table.table_bordered {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  button.btn.edit_btn {
+    border-radius: 5px;
+    border: 0.8px solid #000;
+    background: #FFF;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 16px;
+    transition: 0.5s all;
+    display: inline-flex;
+    cursor: pointer;
+  }
+  
+  .optionen {
+    display: inline-block; 
+    margin-left:10px; 
+    max-width: 200px;
+    height: 45px;
+    background-color:white;
+    border-radius: 4px;
+    color: black;
+    font-size:16px;
+    font-weight:600;
+    padding:10px;
+    border: none;
+    box-shadow:0px 0px 16px #00000009;
+    cursor: pointer;
+  }
+  
+  .optiondiv{
+    display: flex;
+    width:100%;
+    margin-bottom:10px;
+  }
+  
+  .notSavedNow{
+    padding: 5px 10px;
+    border-radius: 100px;
+    background: rgb(255, 115, 0);
+    color: #fff;
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .uploaded{
+    padding: 5px 10px;
+    border-radius: 100px;
+    background: rgb(3, 179, 35);
+    color: #fff;
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  table tr td{
+  text-align: left;
+  }
+  table tr th{
+    /* text-align: left !important; */
+    }
+  
+  
+    .modelForm{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin: 2rem;
+  }
+  .formCol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  
+  .formControl {
+    width: 100%;
+    padding: 9px;
+    border: unset;
+    box-shadow: 2px 3px 4px #b5b5b5;
+    font-size: 15px;
+    outline: unset;
+    border-color: unset;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+  }
+  .form{
+    flex: 0 0 60%;
+  }
+  

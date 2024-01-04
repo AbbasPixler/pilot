@@ -1,0 +1,76 @@
+.tabletdname {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tabletdname label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 12%;
+  font-size: 15px;
+}
+
+
+.multistepinput {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+
+.formControl {
+  width: 100%;
+  padding: 9px;
+  border: unset;
+  box-shadow: 2px 3px 4px #b5b5b5;
+  font-size: 15px;
+  outline: unset;
+  border-color: unset;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+
+
+.formControl.smallControl {
+  width: 55px;
+  text-align: center;
+}
+
+
+.formControl.midumControl {
+  /* width: 90px; */
+  text-align: center;
+}
+
+
+.disable .formControl {
+  text-align: right;
+  background-color: #f2f2f2;
+}
+
+.formControl.disableNumber {
+  background-color: #dae3f3;
+}
+
+.formControl2 {
+  width: 100%;
+  padding: 9px;
+  border: unset;
+  /* box-shadow: 2px 3px 4px #b5b5b5; */
+  font-size: 15px;
+  outline: unset;
+  border-color: unset;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.formControl2.midumControl {
+  width: 90px;
+  text-align: center;
+}

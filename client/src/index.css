@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*Halyard Display Fonts Family Add*/
+
+body,h1,h2,h3,h4,h5,h6,a,p,span,input,select,textarea,ul,li,div, table, td, th{
+
+	font-family: 'Roboto', sans-serif;
+
+}
+
+/*Custom Css Changes*/
+
+
+
+*{
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+}
+
+html,body{
+
+	scroll-behavior: smooth;
+    background: #f1f1f1;
+
+}
+
+button, input, textarea, select{
+
+	outline: unset !important;
+
+}
+
+ul{
+
+	list-style: none;
+
+}
+
+a{
+
+	text-decoration: unset !important;
+
+}
+
+h1,h2,h3,h4,h5,h6,p{
+
+	margin: 0;
+
+}
+.container_fluid {
+  padding: 0 20px;
+}
+
+.webviewer {
+  flex: 1;
+  margin: 8px;
+  -webkit-box-shadow: 1px 1px 10px #999;
+  box-shadow: 1px 1px 10px #999;
+  box-sizing: border-box;
+  height: calc(100% - 76px);
+}

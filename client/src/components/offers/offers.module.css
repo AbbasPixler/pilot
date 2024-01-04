@@ -1,0 +1,35 @@
+.tabOuter{
+  padding: 20px 15px;
+  background-color: #fff;
+  box-shadow: 5px 5px 7px #b5b5b5;
+  z-index: 1;
+  position: relative;
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+}
+
+.formCol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.formControl {
+  width: 100%;
+  padding: 9px;
+  border: unset;
+  box-shadow: 2px 3px 4px #b5b5b5;
+  font-size: 15px;
+  outline: unset;
+  border-color: unset;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.disableInput .formControl {
+  text-align: right;
+  background-color: #f2f2f2;
+}
